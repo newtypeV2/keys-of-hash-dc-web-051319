@@ -4,10 +4,11 @@ class Hash
     # code goes here
     #rArray = []
     arguments.each{|args|  
-      map{|x,y| 
-	    y==args 
+      map{|key,value| 
+	    if value==args
+	    key
     }
-  }
+  }.compact
     #rArray
     binding.pry
   end
