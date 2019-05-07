@@ -9,6 +9,6 @@ class Hash
     }
   }
     #rArray
-    #binding.pry
+    binding.pry
   end
 end
