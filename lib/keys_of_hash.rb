@@ -2,13 +2,13 @@ require "pry"
 class Hash
   def keys_of(*arguments)
     # code goes here
-    rArray = []
+    #rArray = []
     arguments.each{|args|  
       map{|x,y| 
 	    y==args 
     }
   }
-    rArray
+    #rArray
     #binding.pry
   end
 end
